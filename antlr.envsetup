@@ -1,0 +1,9 @@
+JAVA_HOME=/usr/java/jdk1.8.0_121
+PATH=$JAVA_HOME/bin:$PATH
+ANTLRPATH=/usr/local/lib/antlr-4.6-complete.jar
+
+CLASSPATH=".:bin:$ANTLRPATH:$CLASSPATH"
+export CLASSPATH
+alias antlr4="java -jar $ANTLRPATH"
+alias grun="java org.antlr.v4.gui.TestRig"
+
