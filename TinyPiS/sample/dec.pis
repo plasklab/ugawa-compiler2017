@@ -1,0 +1,9 @@
+var x; var y;
+{
+  x = 15;
+  if (x)
+    y = x;
+  else
+    y = 128;
+  answer = y - 1;
+}
