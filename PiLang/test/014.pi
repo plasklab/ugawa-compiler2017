@@ -1,0 +1,14 @@
+var x;
+var y;
+
+function z() {
+  x = 1;
+  return 0;
+}
+
+function main() {
+  var x;
+  x = 100;
+  y = z();
+  return x;
+}

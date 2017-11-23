@@ -1,0 +1,11 @@
+function main() {
+  var abc;
+  var ABC;
+  var ___;
+  var _09_;
+  abc = 1;
+  ABC = 2;
+  ___ = 4;
+  _09_ = 8;
+  return abc + ABC + ___ + _09_;
+}

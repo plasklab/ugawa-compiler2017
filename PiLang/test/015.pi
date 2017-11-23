@@ -1,0 +1,13 @@
+function z() {
+  var x;
+  x = 1;
+  return x;
+}
+
+function main() {
+  var x;
+  var y;
+  x = 100;
+  y = z();
+  return x + y;
+}

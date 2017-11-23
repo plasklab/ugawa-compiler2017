@@ -1,0 +1,13 @@
+var x;
+var y;
+
+function z(x, y) {
+  return x + y;
+}
+
+function main() {
+  x = 1;
+  y = 2;
+  return z(3, 4) - x - y;
+}
+

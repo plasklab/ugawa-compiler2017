@@ -1,0 +1,8 @@
+function z() {
+  return 10;
+}
+
+function main() {
+  return z();
+}
+

@@ -1,0 +1,9 @@
+function z(x) {
+  if (x) return x + z(x - 1);
+  else return 0;
+}
+
+function main() {
+  return z(10);
+}
+
