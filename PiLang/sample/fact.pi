@@ -1,0 +1,15 @@
+var y;
+
+function main() {
+  y = 1;
+  return z(4);
+}
+
+function z(x) {
+  var main;
+  main = 1;
+  if (x)
+    return x * z(x - main);
+  else
+    return y;
+}
